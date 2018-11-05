@@ -200,6 +200,12 @@ _format("nn_NO", group_size=3, group_separator=" ", decimal_point=",",
         negative_sign="-", trailing_negative_sign="",
         rounding_method=ROUND_HALF_EVEN)
 
+_format("cs", group_size=3, group_separator=" ", decimal_point=",",
+        positive_sign="", trailing_positive_sign="",
+        negative_sign="-", trailing_negative_sign="",
+        rounding_method=ROUND_HALF_EVEN)
+
+
 # CURRENCY SIGNS
 # Default currency signs. These can be overridden for locales where
 # foreign or local currency signs for one reason or another differ
